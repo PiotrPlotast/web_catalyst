@@ -43,7 +43,7 @@ export default function LoginPage() {
             >
               Sign Up
             </a>
-            <button onClick={handleClick} className="ml-4 ">
+            <button onClick={handleClick} className="ml-4 md:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
