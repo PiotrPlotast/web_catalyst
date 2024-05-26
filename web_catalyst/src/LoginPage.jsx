@@ -13,33 +13,58 @@ export default function LoginPage() {
           <a href="#" className=" font-bold text-md ">
             Logo
           </a>
-          <div className="hidden md:block md:space-x-10">
-            <a href="#" className="text-[#185174]">
-              Home
-            </a>
-            <a href="#" className="text-[#185174]">
-              Discover
-            </a>
-            <a href="#" className="text-[#185174]">
-              Quick Find
-            </a>
-            <a href="#" className="text-[#185174]">
-              Create
-            </a>
-            <a href="#" className="text-[#185174]">
-              Premium
-            </a>
-          </div>
-          <div className="flex">
+          <div className="flex items-center">
+            <div className="hidden md:block md:space-x-10 mr-8">
+              <a
+                href="#"
+                className="text-[#185174] group transition-all duration-300 ease-in-out"
+              >
+                <span className="bg-left-bottom bg-gradient-to-r from-[#185174] to-[#185174] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                  Home
+                </span>
+              </a>
+              <a
+                href="#"
+                className="text-[#185174] group transition-all duration-300 ease-in-out"
+              >
+                <span className="bg-left-bottom bg-gradient-to-r from-[#185174] to-[#185174] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                  Discover
+                </span>
+              </a>
+              <a
+                href="#"
+                className="text-[#185174] group transition-all duration-300 ease-in-out"
+              >
+                <span className="bg-left-bottom bg-gradient-to-r from-[#185174] to-[#185174] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                  Quick Find
+                </span>
+              </a>
+              <a
+                href="#"
+                className="text-[#185174] group transition-all duration-300 ease-in-out"
+              >
+                <span className="bg-left-bottom bg-gradient-to-r from-[#185174] to-[#185174] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                  Create
+                </span>
+              </a>
+              <a
+                href="#"
+                className="text-[#185174] group transition-all duration-300 ease-in-out"
+              >
+                <span className="bg-left-bottom bg-gradient-to-r from-[#185174] to-[#185174] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                  Premium
+                </span>
+              </a>
+            </div>
             <a
               href="#"
-              className="bg-[#2D98DA] text-[#fff] py-2 px-5 rounded-sm font-medium mr-4"
+              className="bg-[#2D98DA] text-[#fff] py-2 px-5 rounded-sm font-medium mr-4 border border-[#D9D9D9] hover:text-[#185174] hover:bg-[transparent] hover:border hover:border-[#185174] transition-all duration-300 ease-in-out"
             >
               Login
             </a>
             <a
               href="#"
-              className="text-[#185174] py-2 px-5 border border-[#185174] rounded-sm font-medium"
+              className="text-[#185174] py-2 px-5 border border-[#185174] rounded-sm font-medium hover:text-[#fff] hover:bg-[#2D98DA] hover:border hover:border-[#2D98DA] transition-all duration-300 ease-in-out"
             >
               Sign Up
             </a>
@@ -88,9 +113,7 @@ export default function LoginPage() {
       </header>
       <div className="relative h-[100%]">
         <div className="bg-[#2D98DA] absolute z-10 max-w-md h-[100%] px-8 pt-14">
-          <h1 className=" font-extrabold text-[#fff] text-5xl mb-10">
-            Sign Up
-          </h1>
+          <h1 className="font-extrabold text-[#fff] text-5xl mb-10">Sign Up</h1>
           <form>
             <label className="flex flex-col ">
               <span className="text-4xl text-[#fff] mb-1">Email</span>
@@ -136,15 +159,15 @@ export default function LoginPage() {
           </button>
           <p className="text-[#D9D9D9] text-center text-pretty text mt-2">
             By creating an account you agree with our{" "}
-            <a href="#" className="text-[#fff]">
+            <a href="#" className="text-[#fff] hover:underline">
               Terms of Service
             </a>
             ,{" "}
-            <a href="#" className="text-[#fff]">
+            <a href="#" className="text-[#fff] hover:underline">
               Privacy Policy
             </a>
             , and our default{" "}
-            <a href="#" className="text-[#fff]">
+            <a href="#" className="text-[#fff] hover:underline">
               Notification Settings
             </a>
             .
@@ -152,7 +175,7 @@ export default function LoginPage() {
           <p className="text-[#D9D9D9] text-center mt-4">
             Already have an account?
             <span>
-              <a href="#" className="text-[#fff] ml-2">
+              <a href="#" className="text-[#fff] ml-2 hover:underline">
                 Login
               </a>
             </span>
