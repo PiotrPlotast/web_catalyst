@@ -163,12 +163,7 @@ export default function LoginPage() {
           </p>
         </div>
         <div className="absolute top-0  h-[100%]">
-          <img
-            src={bgImage}
-            alt=""
-            className="h-full md:w-full xl:h-auto"
-            style={{ filter: "hue-rotate(260deg) brightness(40%)" }}
-          />
+          <img src={bgImage} alt="" className="h-full md:w-full xl:h-auto" />
         </div>
       </div>
     </div>
