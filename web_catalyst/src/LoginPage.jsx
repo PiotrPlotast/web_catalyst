@@ -133,7 +133,7 @@ export default function LoginPage() {
             </label>
             <button
               type="submit"
-              className="bg-[#fff] text-[#2D98DA] py-2 rounded w-full mt-8"
+              className="bg-[#fff] text-[#2D98DA] py-2 rounded w-full mt-8 hover:bg-[#ececec] transition-all duration-300 ease-in-out"
             >
               Sign up
             </button>
