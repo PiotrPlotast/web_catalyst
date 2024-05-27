@@ -2,7 +2,13 @@
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "login-bg-desktop": "url('./src/assets/Login-Signup_Background.jpeg')",
+        "login-bg-mobile":
+          "url('./src/assets/Login-Signup_Background_Mobile_Variation.jpeg')",
+      },
+    },
     colors: {
       "gray-100": "#F1F5F9",
       "gray-200": "#E2E8F0",

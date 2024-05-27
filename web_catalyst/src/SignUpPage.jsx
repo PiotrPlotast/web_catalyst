@@ -5,7 +5,7 @@ export default function LoginPage() {
       <Header />
       <div className="">
         <div className="max-w-md px-8 pt-14">
-          <h1 className="font-extrabold text-[#fff] text-5xl mb-10">Login</h1>
+          <h1 className="font-extrabold text-[#fff] text-5xl mb-10">Sign Up</h1>
           <form>
             <label className="flex flex-col ">
               <span className="text-4xl text-[#fff] mb-1">Email</span>
@@ -27,7 +27,7 @@ export default function LoginPage() {
               type="submit"
               className="bg-[#fff] text-[#2D98DA] py-2 rounded w-full mt-8 hover:bg-[#ececec] transition-all duration-300 ease-in-out"
             >
-              Login
+              Sign up
             </button>
           </form>
           <p className="text-[#D9D9D9] text-center text-pretty text mt-2">
