@@ -6,13 +6,13 @@ export default function Header() {
     setShowDiv(!showDiv);
   };
   return (
-    <header className="bg-[#D9D9D9]">
-      <nav className="flex justify-between items-center px-8 py-5">
-        <a href="#" className=" font-bold text-md ">
+    <header className="bg-[#D9D9D9] w-full">
+      <nav className="flex justify-between items-center px-4 lg:px-8 py-3 md:py-5">
+        <a href="#" className="font-bold text-md">
           Logo
         </a>
         <div className="flex items-center">
-          <div className="hidden md:block md:space-x-10 mr-8">
+          <div className="hidden md:block space-x-8 lg:space-x-10 mr-8">
             <a
               href="#"
               className="text-[#185174] group transition-all duration-300 ease-in-out"
